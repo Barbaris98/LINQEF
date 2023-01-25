@@ -37,6 +37,14 @@ namespace LINQEF
             }
 
 
+            /*
+            using (ApplicationContext db = new ApplicationContext())
+            {
+                var users = db.Users.Include(p => p.Company).Where(p => p.CompanyId == 1);
+            }
+            */
+
+
         }
     }
 }
